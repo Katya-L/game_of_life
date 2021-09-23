@@ -1,0 +1,312 @@
+@font-face {
+ font-family: 'Raleway';
+ src: url(../fonts/Raleway.ttf);
+}
+
+@font-face {
+ font-family: 'Roboto';
+ src: url(../fonts/Roboto.ttf);
+}
+
+body {
+  background-color: #FCF6FF;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 3vh;
+  color: #2e2562;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #2e2562;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-size: 2vh;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #93a4d8;
+  font-size: 2vh;
+}
+
+a:hover, a:focus {
+  color: #cc86c2;
+  text-decoration: none;
+  outline: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  position:fixed;
+  font-weight: 800;
+  font-size: 2vh;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-inverse {
+  background: #F8EBFF;
+  border-color: #F8EBFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #8264BA;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, a:focus {
+  background-color: #2e2562;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #8264BA;
+  font-weight: bolder;
+  font-size: 3vh;
+  letter-spacing: 3px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #8264BA;
+  font-family: "Raleway";
+}
+
+.logo-img {
+  max-width: auto;
+  height: 50px;
+}
+
+#headerwrap {
+  padding-top: 100px;
+}
+
+.headerwrap-img {
+    max-width: auto;
+    height: 400px;
+}
+
+#headerwrap h1 {
+  margin-top: 100px;
+  color: #280A61;
+  font-size: 6vh;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+#headerwrap h2 {
+  margin-top: 50px;
+  color: #8264BA;
+  font-size: 4vh;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+#bg0 {
+  background: #F8EBFF;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.w {
+  padding: 50px;
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+}
+
+.tilt:hover{
+  -webkit-transform: rotate(20deg);
+}
+
+.bg11 {
+  max-width: auto;
+  height: 150px;
+  padding-right: 100px;
+}
+
+.bg12 {
+  max-width: auto;
+  height: 150px;
+}
+
+#f {
+	background: #2e2562;
+	padding: 10px;
+}
+
+#f i {
+	color: #FCF6FF;
+	font-size: 30px;
+	padding: 20px;
+
+}
+
+#f i:hover, i:focus {
+	color: #cc86c2;
+}
+
+#js {
+  margin: 100px;
+}
+
+label[for=speed], label[for=size] {
+  font-size: 2vh;
+  background: #2e2562;
+}
+
+.i {
+  margin: 20px;
+}
+
+#menu {
+  margin-top: 3em;
+  background-color: #fcdd76;
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+  position: absolute;
+  right: 10px;
+  padding: 30px;
+  padding-right: 60px;
+  margin-right: 10px;
+  margin-left: 70%;
+}
+
+#random, #pause{
+   font-size: 2vh;
+   background: #2e2562;
+   color: white;
+   width: 109px;
+   margin-bottom: 10px;
+}
+
+#question {
+  color: #2e2562;
+  padding-top: 1px;
+}
+
+#btn {
+   font-size: 2vh;
+   background: #2e2562;
+   color: white;
+   width: 102px
+}
+
+.btn:focus, .btn.focus {
+     outline: 0;
+}
+
+.card-img-top {
+   max-width: auto;
+   height: 100px;
+}
+
+#theory {
+  padding-top: 100px;
+  text-indent: 40px;
+}
+
+.img {
+   max-width: auto;
+   height: 550px;
+}
+
+.img1 {
+   max-width: 400px;
+   height: auto;
+}
+
+.close {
+  border: none;
+}
+
+#accordion .panel{
+ border: none;
+ box-shadow: none;
+ border-radius: 0;
+ margin: 5px;
+ padding-left: 13px;
+}
+
+#accordion .panel-heading{
+ padding: 0;
+ border-radius: 0;
+ border: none;
+ text-align: center;
+}
+
+#accordion .panel-title a{
+ display: block;
+ padding: 25px 30px;
+ color: #fff;
+ background: #8264BA;
+ border-bottom: 1px solid #8264BA;
+ position: relative;
+ transition: all 0.5s ease 0s;
+}
+
+#accordion .panel-title a:hover{
+ background: #2e2562;
+}
+
+#accordion .panel-title a:after,
+#accordion .panel-title a.collapsed:after{
+ content: "\f067";
+ font-family: FontAwesome;
+ position: absolute;
+ top: 25px;
+ left: 15px;
+ transform: rotate(135deg);
+ transition: all 0.5s ease 0s;
+}
+
+#accordion .panel-title a.collapsed:after{
+ transform: rotate(0deg);
+}
+
+#accordion .panel-body{
+ background: #caabdd;
+ padding: 10px;
+ border: none;
+ position: relative;
+}
+
+#accordion .panel-body p{
+ background: #FCF6FF;
+ padding: 30px;
+ margin: 0;
+}
+
+#accordion .panel-collapse .panel-body p{
+ opacity: 0;
+ transform: scale(0.9);
+ transition: all 0.5s ease-in-out 0s;
+}
+
+#accordion .panel-collapse.in .panel-body p{
+ opacity: 1;
+ transform: scale(1);
+}
+
+#hl {
+  color: #95b39a;
+}
